@@ -1,0 +1,13 @@
+Express Js->
+
+    -> Express is a framework
+    -> it manages from receving the request to giving response
+    -> it is a npm package
+    -> wee can install it our project by using npm install Express 
+
+    --> learned how to create basic routes using express.js
+
+    -->> middleware -> when user req to the server if there is a middle ware server first run the middleware then response to the request;
+
+    --> Error handling
+       
