@@ -1,0 +1,12 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "Script.js",
+  "scripts": {
+    "chacha" : "echo \"me tera chacha nhi hu\" && exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chitransh",
+  "license": "ISC",
+  "description": ""
+}
