@@ -10,4 +10,27 @@ Express Js->
     -->> middleware -> when user req to the server if there is a middle ware server first run the middleware then response to the request;
 
     --> Error handling
+
+  
+  when user sent any request to backend,backend will respond to this request with responce
+
+  ##Session And Cookies##
+
+  --> Problem ->> when we do not use cookies and send request to the backend without Cookies backend ask the user to identification(server pushta h aap kon ho agar cookies req ke sath attech nhi h to)
+
+  cookies-->  . it is the data that helps identify user to the server
+              . cookies stored in frontend(browser)
+              . it mainly use for authantication(login,logout)
+ 
+ Process--> when user sent any req to server(backend) req are atteched with the cookie. when this request goes to the server, server identify the user by the help of that cookie and send response to that req.
+
+ -->> when user login server gives a unique cookie to the user;
+
+ #session->> login to logout the request and response circuler motion is called as a Session 
+
+
+
+
+
+
        
