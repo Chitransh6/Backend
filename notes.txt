@@ -44,6 +44,21 @@ it has three bits
 ^ -> it lock the major updatation and automaticaly update the recomended and minor updates
 ~ -> it lock the major and recomanded update and automaticaly update the minor updatation 
 
+🎡## Restfull APIs ##😴
+-> it is nothing but set of the rules that server should follow to called as RestFull APIs Server;
+1. client-server architeture -> there is a client and server client req to the server and server responds to that req;
+                               -server can send the data as response to the client in json format or html page.
+    there are two type of rendering ->  1.SSR(server side rendering)  2.CSR(client side rendering)
+    ->in ssr server send the html page to the client the server render the html page itself and then send it to client that can seen on client browser
+      -->> ssr are only used when it is sure that client on browser
+    
+    ->in csr server send the data to the user in json format then client render that data in frontend;
+      -->> csr are mostly used when user(client) on mobile or any digital device like alexa
+
+
+
+
+
 
 
 
