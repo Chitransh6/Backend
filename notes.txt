@@ -28,6 +28,24 @@ Express Js->
 
  #session->> login to logout the request and response circuler motion is called as a Session 
 
+### versioning in node.js ###
+
+versions are represented like this -> major.recomended.minor
+example = 2.3.1, 4.8.4
+it has three bits
+
+#starting bit -> represents the major updates any syntactical,symentical update; you should be very consious to update your project on this because their is posibilty that your code may not work on this updatetaion😰.
+
+#middle bit -> it represents the recomended update🎗 you should update your project on this updatation because in this update bugs,and some more functionality are added.
+
+#last bit -> it represent the minor update that are not that much update you can update or not i depends on you
+
+## there are signs like ^,~ before version representation, example = ^4.2.1, ~5.1.3
+^ -> it lock the major updatation and automaticaly update the recomended and minor updates
+~ -> it lock the major and recomanded update and automaticaly update the minor updatation 
+
+
+
 
 
 
