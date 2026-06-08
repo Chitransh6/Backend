@@ -55,6 +55,16 @@ it has three bits
     ->in csr server send the data to the user in json format then client render that data in frontend;
       -->> csr are mostly used when user(client) on mobile or any digital device like alexa
 
+2. respect all the http request methods -> GET, POST, PUT, PATCH, DELETE
+   ->> Always use all the req methods according to need;
+
+  GET -> client want to get some data from server
+  POST -> client want to send some data to server exmaple -> form
+  put -> client want to insert some more data tin his database
+  patch => client want to edit or update some data
+  delete -> client want to delete some data 
+  
+
 
 
 
