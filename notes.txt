@@ -7,7 +7,7 @@ Express Js->
 
     --> learned how to create basic routes using express.js
 
-    -->> middleware -> when user req to the server if there is a middle ware server first run the middleware then response to the request;
+    -->> middleware -> when user req to the server if there is a middle ware server first run the middleware then is goes to the routehandler then response to the request;
 
     --> Error handling
 
@@ -63,6 +63,12 @@ it has three bits
   put -> client want to insert some more data tin his database
   patch => client want to edit or update some data
   delete -> client want to delete some data 
+
+3. Postman -> tool use to test,build APIs
+             -> it prevent developer to create frontend page while accepting the req from user, dev can use the post man to get the requests
+
+
+4. 
   
 
 
