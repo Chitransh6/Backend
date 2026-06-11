@@ -68,7 +68,31 @@ it has three bits
              -> it prevent developer to create frontend page while accepting the req from user, dev can use the post man to get the requests
 
 
-4. 
+4. HTTP Request Headers 🎈-> these are the additional information that are atteched with req and res
+             -> req Header has the metadata,client info or any additional info about req;
+             -> res Header has the metadata, server info or any additonal info about server;
+             -> server can easily access the req header by req.headers
+             -> server can insert the custom res Header by res.setHeader("key", "value");
+
+5. Status Code -> numeric code that tell about the req status;
+  -> there are some status codes
+     100 -> information status code
+     200 -> req succesfully complate status code
+     300 -> redirect status code
+     400 -> client side error 
+     500 -> server side error
+
+there are some famous codes
+  201 created
+  404 not found
+  401 unauthorized
+  403 forbidden
+  500 Inernal server error
+  501 not Implimented
+  504 Gateway Timeout
+   
+     
+         
   
 
 
